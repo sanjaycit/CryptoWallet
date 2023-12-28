@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "@ethersproject/hdnode": "^5.7.0",
-    "utils": "^0.3.1"
-  }
-}
