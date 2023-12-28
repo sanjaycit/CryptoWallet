@@ -1,0 +1,77 @@
+/* AddNetworkPopup.css */
+
+/* Add a backdrop */
+*{
+  font-family: Nunito sans;
+}
+.add-network-container {
+    display: flex;
+    justify-content: center;
+    align-items: center; /* Center vertically as well */
+    height: 100vh; /* Make the container take the full height of the viewport */
+    position: fixed; /* Fixed position to cover the entire viewport */
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.3); /* Semi-transparent black background */
+    z-index:2;
+  }
+  
+  .add-network-popup {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    z-index: 2;
+    position: relative;
+  }
+  
+  .add-network-popup h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+  }
+  
+  .add-network-popup label {
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .add-network-popup input {
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+  
+  .add-network-popup button {
+    background-color: #F81B66;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    margin-top: 10px; /* Add margin to separate button from inputs */
+  }
+  
+  .add-network-popup button:hover {
+    background-color: 	hsl(340, 94%, 45%);;
+  }
+  .close-icon-container{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .close-icon {
+    position: absolute;
+    z-index:3;
+    cursor: pointer;
+    width:20px;
+    height: 20px;
+  }
+ 

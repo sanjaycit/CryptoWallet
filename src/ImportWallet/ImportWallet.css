@@ -1,0 +1,142 @@
+
+
+.importWallet-root {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content; 
+  }
+  
+  .importWallet-container {
+    text-align: center;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 350px; 
+    border-radius: 10px;
+    position: relative;
+  }
+  
+  .actions {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .privateKey,
+  .seedPhrase {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+ 
+  .importWallet-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .importWallet-container {
+    text-align: center;
+  }
+  
+  .actions {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .privateKey {
+    margin-bottom: 10px;
+  }
+  
+  /* Popup styles */
+  .popupBackdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .popup {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  
+  .privateKey {
+    padding: 10px;
+    cursor: pointer;
+    background-color: #F81B66;
+    color: #fff;
+    border: 2px solid #F81B66;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: Nunito sans;
+  }
+  .privateKey:hover{
+    background-color:  	hsl(340, 94%, 45%);
+    border: 2px solid hsl(340, 94%, 45%) ;
+    color:white ;
+    font-weight: 600;
+  }
+  .seedPhrase{
+    border: 2px solid #F81B66;
+    background-color: white;
+    color:#F81B66;
+    padding: 10px;
+    font-weight: 600;
+  }
+  .seedPhrase:hover{
+    background-color: white;
+    color:#F81B66
+  }
+  .logo{
+    width:250px;
+  }
+  .seedPhrase-popup-button{
+    padding: 10px;
+    cursor: pointer;
+    background-color: #F81B66;
+    color: #fff;
+    border: 2px solid #F81B66;
+    border-radius: 5px;
+    font-weight: 600;
+    font-family: Nunito sans;
+    width:100%;
+  }
+  .seedPhrase-popup-button:hover{
+    background-color:  	hsl(340, 94%, 45%);
+    border: 2px solid hsl(340, 94%, 45%) ;
+    color:white ;
+    font-weight: 600;
+  }
+  .close-icon-container{
+    display: flex;
+    justify-content: flex-end;
+  }
+  .close-icon {
+    z-index:3;
+    width:20px;
+    height: 20px;
+    cursor: pointer;
+  }
+  .caution p{
+    color:#FF4B47;
+    font-size: 12px;
+    font-style: italic;
+  }
+ 

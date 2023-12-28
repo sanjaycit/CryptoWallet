@@ -1,0 +1,57 @@
+.home-root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.home-container {
+  text-align: center;
+  background-color: white;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: 1px solid #ddd;
+  padding: 20px;
+  width: 350px; 
+  border-radius: 10px;
+  position: relative;
+}
+
+.actions {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.create-wallet,
+.import-wallet {
+  width: 100%; /* Make the buttons occupy the entire width */
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  font-family: Nunito sans;
+  font-weight: 600;
+}
+.logo{
+  width:250px;
+}
+.create-wallet{
+  background-color:#F81B66;
+  border:2px solid #F81B66;
+  color:white;
+}
+.import-wallet{
+  border: 2px solid #F81B66;
+  background-color: white;
+  color:#F81B66;
+}
+.create-wallet:hover{
+  background-color:  	hsl(340, 94%, 45%);
+  border: 2px solid hsl(340, 94%, 45%) ;
+  color:white ;
+  font-weight: 600;
+}
+.import-wallet:hover{
+  background-color: white;
+  color:#F81B66
+  
+}
